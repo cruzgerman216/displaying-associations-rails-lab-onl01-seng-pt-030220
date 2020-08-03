@@ -1,8 +1,6 @@
 class ArtistsController < ApplicationController
   
-  def song_count
-    self.songs.count
-  end
+
   
   def index
     @artists = Artist.all
